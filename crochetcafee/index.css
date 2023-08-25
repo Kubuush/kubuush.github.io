@@ -123,6 +123,11 @@ label{
     height: auto;
     margin: 0 auto;
   }
+  .openPopup{
+    color: #3d2020;
+    font-weight: bold;
+    text-decoration: underline;
+  }
 @media (min-width:475px){
     body{
         padding-top: var(--nav-height);
@@ -189,7 +194,7 @@ label{
         border-radius: 10px;
         border: none;
         margin: 0.3rem;
-}
+    }
 }
 
 /*Small Screen */
