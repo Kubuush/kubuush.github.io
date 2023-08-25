@@ -30,3 +30,26 @@ document.addEventListener("DOMContentLoaded", function() {
       }
   }
 });
+document.addEventListener("DOMContentLoaded", function() {
+  const openPopupButtons = document.querySelectorAll(".openPopup");
+  const closePopupButton = document.querySelector(".closePopup");
+  const popupContainer = document.getElementById("popupContainer");
+  const overlay = document.getElementById("overlay");
+
+  openPopupButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      popupContainer.style.display = "block";
+      overlay.style.display = "block";
+    });
+  });
+
+  closePopupButton.addEventListener("click", () => {
+    popupContainer.style.display = "none";
+    overlay.style.display = "none";
+  });
+
+  overlay.addEventListener("click", () => {
+    popupContainer.style.display = "none";
+    overlay.style.display = "none";
+  });
+});

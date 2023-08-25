@@ -32,7 +32,7 @@
                 </blockquote>
             </div>
             <br>
-            I spend hours upon hours crocheting, not because I have to, but because I genuinely love to.
+            <p>I spend hours upon hours crocheting, not because I have to, but because I genuinely love to.
             There's an indescribable joy that comes with seeing a project come to life stitch by stitch.
             It's not just about the final product; it's about the journey, the process, and the countless things I learn along the way.<br>
             What's amazing is that every day, I discover something new. Whether it's a challenging stitch pattern, 
@@ -54,19 +54,57 @@
         </p>
         <div class="product_nr1">
             <div class="item">
-                <img src="Images/mushroom_1.jpg" class="product_nr1">
-                <button>Order Now! Only ££?</button>
+              <img src="Images/mushroom_1.jpg" class="product_nr1">
+              <p class="product-name">Magic Mushroom</p>
+              <button class="openPopup">Order Now! Only ££?</button>
             </div>
             <div class="item">
-                <img src="Images/duck__1.jpg" class="product_nr1">
-                <button>Order Now! Only ££?</button>
+              <img src="Images/duck__1.jpg" class="product_nr1">
+              <p class="product-name">yellow_duck</p>
+              <button class="openPopup">Order Now! Only ££?</button>
             </div>
-        </div>
-        <p>Lorem ipsum, dolo Lorem ipsum dolor sit amet consectetur adipise nemo consequatur iure obcaecati ipsam nulla invento</p>
-        <div class="product_nr1">
-            <div class="item"><img src="#" class="product_nr1"><p><button>Order Now! Only ££?</button></p></div>
-            <div class="item"><img src="#" class="product_nr1"><p><button>Order Now! Only ££?</button></p></div>
-    </div>
+          </div>
+          
+          <p>Lorem ipsum dolor sit amet...</p>
+          
+          <div class="product_nr1">
+            <div class="item">
+              <img src="#" class="product_nr1">
+              <p class="product-name">ProductName</p>
+              <button class="openPopup">Order Now! Only ££?</button>
+            </div>
+            <div class="item">
+              <img src="#" class="product_nr1">
+              <p class="product-name">ProductName</p>
+              <button class="openPopup">Order Now! Only ££?</button>
+            </div>
+          </div>
+          
+          <div class="popup-container" id="popupContainer">
+            <div class="popup-content">
+              <form class="order-form" action="https://formsubmit.co/sdaniel3110@gmail.com" method="post">
+                <h1><p class="popup-instructions">To Order a right product please read instructions below.</p></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ad aliquam adipisci nulla, alias minus, nostrum, voluptate aspernatur laudantium quidem harum velit 
+                    ipsum rem eligendi a voluptatibus temporibus sed eum corrupti.</p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    <input type="submit" value="Submit">
+                    <p class="popup-important">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, 
+                        soluta numquam. Facere cumque qui assumenda quasi dolore enim consequatur mollitia quia? 
+                        Nulla quo quod odio voluptate optio possimus repellat similique!</p>
+                </form>
+              <button class="closePopup">Close</button>
+            </div>
+          </div>
+          
+          <div class="overlay" id="overlay"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem minus atque, voluptas maiores pariatur dolores sequi dolor eius error fuga saepe doloremque? Harum, reiciendis sapiente iure quae maiores voluptates architecto!</p>
 </section>
 <section id="prices" class="section">
