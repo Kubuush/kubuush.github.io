@@ -1,0 +1,177 @@
+/*Starting to show when screen is min - 475px if less than that it wont show */
+/*Extra Small Screen */ 
+body{
+    padding-top: var(--nav-height);
+    --nav-height: 50px;
+    background-color: #e7d6bc;
+    margin: 0%;
+
+}
+.nav{
+    width: 100%;
+    height: var(--nav-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(126, 93, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+.nav.hidden {
+    transform: translateY(-100%);
+  }
+.nav__link {
+    color: #ffffffc5;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+    font-family: cursive;
+  }
+.logo{
+    height: var(--nav-height);
+}
+.section{
+    padding: 0.1rem;
+    justify-content: center;
+    text-align: center;
+    background-color: #e7d6bc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.7rem;
+    color: #3d2020;;
+}
+p{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+}
+h3{
+    font-family: cursive;
+    color: #3d2020;;
+    font-weight: bold;
+
+}
+.product.nr1{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button:hover{
+    background-color: rgba(126, 93, 73, 0.527);
+    color: #ffffffc5;
+    text-decoration: underline;
+    font-family: serif;
+}
+textarea{
+    resize: none;
+    width: 19.7rem;
+}
+button{
+    padding: 0.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(126, 93, 73);
+    border-radius: 10px;
+    border: none;
+    margin: 0.3rem;
+
+}
+.fb_page{
+    padding: 1.3rem;
+}
+footer{
+    background-color: rgb(126, 93, 73);
+    width: 100%;
+    height: var(--nav-height)
+}
+label{
+    font-weight: bold;
+}
+
+@media (min-width:475px){
+    body{
+        padding-top: var(--nav-height);
+        --nav-height: 50px;
+        background-color: #e7d6bc;
+        margin: 0%;
+
+    }
+    .nav{
+        width: 100%;
+        height: var(--nav-height);
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(126, 93, 73);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s;
+    }
+    .nav.hidden {
+        transform: translateY(-100%);
+      }
+    .nav__link {
+        color: #ffffffc5;
+        text-decoration: none;
+        margin: 0 1em;
+        font-weight: bold;
+        font-family: cursive;
+      }
+    .section{
+        padding: 0.1rem;
+        justify-content: center;
+        text-align: center;
+        background-color: #e7d6bc;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.7rem;
+    }
+    p{
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+    h1{
+        font-weight: bold;
+        font-family: cursive;
+    }
+    .example_product{
+        width: 100%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    textarea{
+        resize: none;
+        width: 28rem;
+    }
+}
+
+/*Small Screen */
+@media (min-width:640px) {
+
+}
+/*Medium Screen */
+@media (min-width:768px) {
+    
+}
+/*Large Screen */
+@media (min-width:1024) {
+    
+}
+/*Extra Large Screen */
+@media (min-width:1280px) {
+    
+}
+/*Extra Extra Large Screen */
+@media (min-width:1536px) {
+    
+}
