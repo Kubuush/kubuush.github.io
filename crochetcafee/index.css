@@ -106,7 +106,7 @@ label{
     box-shadow: 0px 2px 10px #ffffff28;
     z-index: 2;
   }
-  /* Style for the overlay background */
+  /* Style for the overlay background (POPUP)*/
   .overlay {
     display: none;
     position: fixed;
@@ -181,6 +181,15 @@ label{
         resize: none;
         width: 28rem;
     }
+    button{
+        padding: 0.3rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        background-color: rgb(126, 93, 73);
+        border-radius: 10px;
+        border: none;
+        margin: 0.3rem;
+}
 }
 
 /*Small Screen */
